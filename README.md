@@ -2,7 +2,7 @@
 
 ##### 1. დააინსტალირეთ `git`
 ```bash
-$ pkg  install git
+$ pkg install git
 ``` 
 ##### 2. დააყენეთ `python`
 ```bash
@@ -24,5 +24,5 @@ $ pip install -r requirements.txt
 ##### 6 RUN 
 
 ```bash
-python main.py
+$ python main.py
 ```
