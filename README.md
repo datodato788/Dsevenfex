@@ -8,21 +8,25 @@ $ pkg install git
 ```bash
 $ pkg install python3
 ```
+##### 3. დააყენეთ `Python-nmap`
+```bash
+$ pip install python-nmap && pkg install nmap
+```
 
-##### 3. გადმოიტანეთ ფაილები `GitHub`- იდან
+##### 4. გადმოიტანეთ ფაილები `GitHub`- იდან
 ```bash
 $ git clone https://github.com/datodato788/Dsevenfex.git
 ``` 
-##### 4. შედით `Dsevenfex`-ში
+##### 5. შედით `Dsevenfex`-ში
 ```bash
 $ cd Dsevenfex
 ``` 
-##### 5. დააინსტალირეთ აუცილებელი ბიბლიოთეკები ბრძანების საშუალებით :
+##### 6. დააინსტალირეთ აუცილებელი ბიბლიოთეკები ბრძანების საშუალებით :
 ```bash
 $ pip install -r requirements.txt
 ```
-##### 6 RUN 
+##### 7 RUN 
 
 ```bash
-$ python main.py
+$ python Dsevenfex.py
 ```
