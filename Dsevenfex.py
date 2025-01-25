@@ -47,6 +47,7 @@ def main_menu():
             print(f"{Fore.RED}Invalid choice. Please try again.{Fore.RESET}")
             input(f"{Style.BRIGHT}{Fore.YELLOW}Press ENTER to continue...{Fore.RESET}")
 
+#my N1 python tool
 if __name__ == "__main__":
     install_dependencies() 
     main_menu()
