@@ -1,19 +1,14 @@
 import requests
 from colorama import Fore, Style
 from utils.helpers import save_to_file, clear_console
-from utils.ascii_art import create_ascii_art, print_separator
+from utils.ascii_art import create_ascii_art, print_separator ,print_navbar
 from utils.nmap_scanner import nmap_quick_scan, nmap_full_scan, print_scan_results
 from utils.geolocation import get_geolocation
 
+
 ip_history = {}
 
-def print_navbar(location, ip=None):
-    path = f"{location}"
-    if ip:
-        path += f" / {ip}"
-    print_separator()
-    print(f"{Style.BRIGHT}{Fore.MAGENTA}{path}{Fore.RESET}")
-    print_separator()
+
 
 def add_or_edit_ip(ip, note=None):
     ip_history[ip] = note or ip_history.get(ip, "")

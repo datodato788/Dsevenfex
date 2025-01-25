@@ -1,7 +1,8 @@
-from utils.ascii_art import create_ascii_art, print_separator
-from utils.ip_tools import add_or_edit_ip, view_ip_history ,print_navbar
+from utils.ascii_art import create_ascii_art, print_separator ,print_navbar
+from utils.ip_tools import add_or_edit_ip, view_ip_history 
 from utils.helpers import install_dependencies, clear_console
 from colorama import Fore, Style, init
+from utils.image_scanner import image_scanner
 
 init(autoreset=True)
 
@@ -11,6 +12,7 @@ def main_menu():
         print(create_ascii_art(f"{Fore.MAGENTA}Dsevenfex"))
         print_navbar("Main menu / ")
         print(f"  {Fore.BLUE}[1] {Fore.GREEN}IP Scanning")
+        print(f"  {Fore.BLUE}[2] {Fore.GREEN}Image Scanning")
         print(f"  {Fore.BLUE}[0] {Fore.RED}Exit")
         print_separator()
 
@@ -39,7 +41,8 @@ def main_menu():
                 else:
                     print(f"{Fore.RED}Invalid choice. Please try again.{Fore.RESET}")
                     input(f"{Style.BRIGHT}{Fore.YELLOW}Press ENTER to continue...{Fore.RESET}")
-        
+        elif choice =="2":
+              image_scanner()
         elif choice == "0":
             print(f"{Style.BRIGHT}{Fore.RED}Exiting... Goodbye!")
             break
