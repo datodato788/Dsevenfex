@@ -2,3 +2,4 @@ colorama
 requests
 python-nmap
 pyfiglet
+tesseract-ocr

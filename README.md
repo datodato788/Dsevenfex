@@ -12,21 +12,23 @@ $ pkg install python3
 ```bash
 $ pip install python-nmap && pkg install nmap
 ```
-
-##### 4. გადმოიტანეთ ფაილები `GitHub`- იდან
+##### 4. დააყენეთ `tesseract`
+```bash
+$ pkg install tesseract
+```
+##### 5. გადმოიტანეთ ფაილები `GitHub`- იდან
 ```bash
 $ git clone https://github.com/datodato788/Dsevenfex.git
 ``` 
-##### 5. შედით `Dsevenfex`-ში
+##### 6. შედით `Dsevenfex`-ში
 ```bash
 $ cd Dsevenfex
 ``` 
-##### 6. დააინსტალირეთ აუცილებელი ბიბლიოთეკები ბრძანების საშუალებით :
+##### 7. დააინსტალირეთ აუცილებელი ბიბლიოთეკები ბრძანების საშუალებით :
 ```bash
 $ pip install -r requirements.txt
 ```
-##### 7 RUN 
-
+##### 8 RUN 
 ```bash
 $ python Dsevenfex.py
 ```
