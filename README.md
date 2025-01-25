@@ -21,7 +21,7 @@ $ git clone https://github.com/datodato788/Dsevenfex.git
 ```bash
 $ cd Dsevenfex
 ``` 
-##### 6. დააინსტალირეთ აუცილებელი ბიბლიოთეკები ბრძანების საშუალებით :
+##### 6. დააინსტალირეთ აუცილებელი ბიბლიოთეკები
 ```bash
 $ pip install -r requirements.txt
 ```
