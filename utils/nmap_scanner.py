@@ -21,3 +21,4 @@ def print_scan_results(nm):
             for port in sorted(ports):
                 state = nm[host][proto][port]['state']
                 print(f"{Fore.CYAN}Port {port}: {state}")
+
