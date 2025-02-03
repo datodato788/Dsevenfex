@@ -1,5 +1,5 @@
-<p style="border-radius:10px" align="center">
-  <img src="imageScannerFile/image.png" alt="Alt Text">
+<p align="center">
+  <img src="imageScannerFile/image.png" alt="Alt Text" style="border-radius: 7px;" >
 </p>
 
 * ✅ Root არის საჭირო
