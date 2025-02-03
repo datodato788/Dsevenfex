@@ -1,4 +1,6 @@
-<center>![Alt Text](imageScannerFile/image.png)</center>
+<p align="center">
+  <img src="imageScannerFile/image.png" alt="Alt Text">
+</p>
 
 * ✅ Root არის საჭირო
 * Beta
