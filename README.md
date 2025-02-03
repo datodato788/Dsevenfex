@@ -1,4 +1,4 @@
-![Alt Text](imageScannerFile/image.png)
+<center>![Alt Text](imageScannerFile/image.png)</center>
 
 * ✅ Root არის საჭირო
 * Beta
