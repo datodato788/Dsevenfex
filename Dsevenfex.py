@@ -3,6 +3,8 @@ from utils.ip_tools import add_or_edit_ip, view_ip_history
 from utils.helpers import install_dependencies, clear_console
 from colorama import Fore, Style, init
 from utils.image_scanner import image_scanner
+from utils.network_scanner import NetworkScanner
+
 
 init(autoreset=True)
 
@@ -11,9 +13,10 @@ def main_menu():
         clear_console()
         print(create_ascii_art(f"{Fore.MAGENTA}Dsevenfex"))
         print_navbar("Main menu / ")
-        print(f"  {Fore.BLUE}[1] {Fore.GREEN}IP Scanning")
-        print(f"  {Fore.BLUE}[2] {Fore.GREEN}Image Scanning")
-        print(f"  {Fore.BLUE}[0] {Fore.RED}Exit")
+        print(f"  {Fore.BLUE}[1] {Fore.GREEN}IP Scanner")
+        print(f"  {Fore.BLUE}[2] {Fore.GREEN}Image Scanner")
+        print(f"  {Fore.BLUE}[3] {Fore.GREEN}Network Scanner")
+        print(f"  {Fore.RED}[0] Exit")
         print_separator()
 
         choice = input(f"{Style.BRIGHT}{Fore.YELLOW}Choose an option: {Fore.RESET}")
@@ -24,7 +27,7 @@ def main_menu():
                 print_navbar("Main menu / IP Scanning Menu ")
                 print(f"  {Fore.BLUE}[1] {Fore.GREEN}Enter a New IP Address")
                 print(f"  {Fore.BLUE}[2] {Fore.GREEN}View Saved IPs")
-                print(f"  {Fore.BLUE}[0] {Fore.RED}Go Back to Main Menu")
+                print(f"  {Fore.RED}[0] Go Back to Main Menu")
                 print_separator()
                 
                 save_ip = input(f"{Style.BRIGHT}{Fore.YELLOW}Choose an option: {Fore.RESET}")
@@ -43,6 +46,39 @@ def main_menu():
                     input(f"{Style.BRIGHT}{Fore.YELLOW}Press ENTER to continue...{Fore.RESET}")
         elif choice =="2":
               image_scanner()
+        elif choice =="3":
+             def Network():
+                       clear_console()
+                       print_navbar("Main menu / Network Scanner ")
+                       print(f"  {Fore.BLUE}[1] {Fore.GREEN}Choice")
+                       print(f"  {Fore.BLUE}[2] {Fore.GREEN}Default (255)")
+                       print(f"  {Fore.RED}[0] Go Back to Main Menu")
+                       print_separator()
+                       choice1 = input(f"{Style.BRIGHT}{Fore.YELLOW}Choose an option: {Fore.RESET}")
+                       if choice1 =="1":
+                             port_count = int(input(f"{Style.BRIGHT}{Fore.YELLOW}Enter the number of IPs to scan: {Fore.RESET} ")) 
+                             clear_console()
+                             print_navbar(f"Main menu / Network Scanner / {Fore.RED}{port_count} ")
+                             NetworkScanner().scan_network_and_display(port_count)
+                             print_separator()
+                             input(f"{Fore.YELLOW}Press ENTER to proceed or return... {Fore.RESET}")
+                             Network()
+          
+          
+                       elif choice1 =="2":
+                          clear_console()
+                          print_navbar(f"Main menu / Network Scanner / {Fore.RED}255")
+                          NetworkScanner().scan_network_and_display(255)
+                          print_separator()
+                          input(f"{Fore.YELLOW}Press ENTER to proceed or return... {Fore.RESET}")
+                          choice == "3"
+                          input(f"{Fore.YELLOW}Press ENTER to proceed or return... {Fore.RESET}")
+                          Network()
+
+             Network()    
+                 
+                        
+
         elif choice == "0":
             print(f"{Style.BRIGHT}{Fore.RED}Exiting... Goodbye!")
             break

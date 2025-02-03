@@ -1,6 +1,9 @@
-colorama
+scapy
+socket
+os
+subprocess
+time
+json
 requests
+colorama
 python-nmap
-pyfiglet
-tesseract-ocr
-

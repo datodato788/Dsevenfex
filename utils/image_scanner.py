@@ -80,7 +80,7 @@ def list_and_select_file(folder_path):
             print(f"{Fore.CYAN}Files in folder:{Style.RESET_ALL}")
             for idx, file in enumerate(files, start=1):
                 print(f"{Fore.BLUE}[{idx}] {Fore.GREEN}{file}{Style.RESET_ALL}")
-            print(f"{Fore.BLUE}[0] {Fore.RED}Go Back{Style.RESET_ALL}")
+            print(f"{Fore.RED}[0] Go Back{Style.RESET_ALL}")
 
             print_separator()
 
@@ -118,7 +118,7 @@ def image_scanner():
         print_navbar("Main menu / Image Scanning")
         print(f"{Fore.BLUE}[1] {Fore.GREEN}Default file (imageScannerFile){Style.RESET_ALL}")
         print(f"{Fore.BLUE}[2] {Fore.GREEN}Choose file location (CustomFilePath){Style.RESET_ALL}")
-        print(f"{Fore.BLUE}[0] {Fore.RED}Go Back to Main Menu{Style.RESET_ALL}")
+        print(f"{Fore.RED}[0] Go Back to Main Menu{Style.RESET_ALL}")
         print_separator()
         choice = input(f"{Fore.YELLOW}Choose an option: {Style.RESET_ALL}")
 
