@@ -1,5 +1,8 @@
+![Alt Text](imageScannerFile/image.png)
+
 * ✅ Root არის საჭირო
 * Beta
+
 # D7FEX IP Tool
 
 ##### 1. დააინსტალირეთ `git`
