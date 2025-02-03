@@ -1,4 +1,4 @@
-<p align="center">
+<p style="border-radius:10px" align="center">
   <img src="imageScannerFile/image.png" alt="Alt Text">
 </p>
 
