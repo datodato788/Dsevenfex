@@ -4,41 +4,41 @@
 
 
 # D7FEX IP Tool 
-## ✅ Root 
+#### ✅ Root 
 
 ##### 1. დააინსტალირეთ `git`
 ```bash
-$ pkg install git
+pkg install git
 ``` 
 ##### 2. დააყენეთ `python`
 ```bash
-$ pkg install python3
+pkg install python3
 ```
 ##### 3. დააყენეთ `Pillow`
 ```bash
-$ pip install Pillow
+pip install Pillow
 ```
-##### 4. დააყენეთ `Python-nmap`
+##### 4. დააყენეთ `nmap`
 ```bash
-$ pip install python-nmap && pkg install nmap
+pkg install nmap
 ```
 ##### 5. დააყენეთ `tesseract`
 ```bash
-$ pkg install tesseract
+pkg install tesseract
 ```
 ##### 6. გადმოიტანეთ ფაილები `GitHub`- იდან
 ```bash
-$ git clone https://github.com/datodato788/Dsevenfex.git
+git clone https://github.com/datodato788/Dsevenfex.git
 ``` 
 ##### 7. შედით `Dsevenfex`-ში
 ```bash
-$ cd Dsevenfex
+cd Dsevenfex
 ``` 
 ##### 8. დააინსტალირეთ აუცილებელი ბიბლიოთეკები ბრძანების საშუალებით :
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ##### 9 RUN 
 ```bash
-$ python Dsevenfex.py
+python Dsevenfex.py
 ```
