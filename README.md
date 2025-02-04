@@ -4,7 +4,7 @@
 
 
 # D7FEX IP Tool 
-#### ✅ Root 
+ 
 
 ##### 1. დააინსტალირეთ `git`
 ```bash
@@ -27,9 +27,15 @@ pkg install nmap
 pkg install tesseract
 ```
 ##### 6. გადმოიტანეთ ფაილები `GitHub`- იდან
+#### ✅ Root
 ```bash
 git clone https://github.com/datodato788/Dsevenfex.git
-``` 
+```
+#### ✅ Beta
+```bash
+git clone -b image_scaner_V1 --single-branch https://github.com/datodato788/Dsevenfex.git
+```
+
 ##### 7. შედით `Dsevenfex`-ში
 ```bash
 cd Dsevenfex
