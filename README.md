@@ -2,10 +2,9 @@
   <img src="imageScannerFile/image.png" alt="Alt Text">
 </p>
 
-* ✅ Root არის საჭირო
-* Beta
 
-# D7FEX IP Tool
+# D7FEX IP Tool 
+## ✅ Root 
 
 ##### 1. დააინსტალირეთ `git`
 ```bash
