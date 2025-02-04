@@ -27,7 +27,8 @@ pkg install nmap
 pkg install tesseract
 ```
 ##### 6. გადმოიტანეთ ფაილები `GitHub`- იდან
-#### ✅ Root
+#### ✅ Root 
+* [+] Network Scanner
 ```bash
 git clone https://github.com/datodato788/Dsevenfex.git
 ```
